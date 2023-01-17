@@ -1,0 +1,22 @@
+@charset 'utf-8';
+@import "_remtopx.scss";
+@import "_variables.scss";
+@import "_font.scss";
+
+#main {
+    margin-top: sizeSet(8);
+    background: $beige;
+        h2 {
+            font: {
+                family: nth($Ko-font,2), sans-serif;
+                size: nth($font-size, -1);
+                weight: 700;
+            }
+            color: $main-color;
+        }
+
+        .profile {
+            margin-top: sizeSet(3.5);
+            color: $black;
+        }
+}
